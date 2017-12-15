@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import "katex/dist/katex.min.css"
 
+
 export default function Template({data}) {
   const {markdownRemark: post} = data
 

@@ -1,3 +1,4 @@
+
 module.exports = {
   siteMetadata: {
     title: `covered in slime`,
@@ -7,8 +8,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/posts`,
         name: 'posts',
+        path: `${__dirname}/src/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'todos',
+        path: `${__dirname}/src/todos`,
       },
     },
     {

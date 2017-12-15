@@ -3,6 +3,11 @@ path: "/mind-config"
 title: "--"
 ---
 
+<details><summary>ok</summary>
+
+blah blah vlah
+</details>
+
 blah blah
 
 $a^2$
