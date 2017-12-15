@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+    font-family: 'Source Code Pro', monospace;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 body {
   margin: 0;

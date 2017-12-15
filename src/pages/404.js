@@ -1,9 +1,13 @@
 import React from 'react'
+import styles from './404.module.css'
+
 
 const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+  <div className={styles.notFoundPage}>
+    <div className={styles.img}>
+      <img src='https://media.giphy.com/media/GAkO90wQ0JMd2/giphy.gif'/>
+      <div className={styles.txt}>404</div>
+    </div>
   </div>
 )
 
